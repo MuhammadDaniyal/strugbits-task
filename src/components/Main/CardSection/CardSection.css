@@ -1,0 +1,99 @@
+.CardSection{
+    margin-top: 42px;
+}
+
+.CardSectionNav{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #57BC90;
+    color: #168e26;
+    font-weight: 600;
+    padding: 8px 0px;
+    margin-bottom: 20px;
+}
+
+.CardSectionNav p {
+    margin-bottom: 0px !important;
+}
+
+.scroll-container{
+    height: 360px;
+    overflow-y: auto;
+}
+
+
+/* CARD CSS */
+
+.cardDetail{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cardDetail img {
+    width: 90px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.cardDetail p{
+    margin-bottom: 0px !important;
+}
+
+.idPara{
+    color: #888;
+    font-size: 15px;
+}
+
+.namePara{
+    color: #57BC90;
+    text-decoration: underline;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mailPara{
+    color: #888;
+    font-size: 14px;
+}
+
+.cardBtnSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-editCustomer{
+    font-size: 14px;
+    background-color: #b0e1b7 !important;
+    color: #168e26;
+    border: none !important;
+    font-weight: 600;
+    min-width: 90px;
+}
+
+.btn-editCustomer:hover{
+    color: #168e26;
+}
+
+.btn-deleteCustomer{
+    font-size: 14px;
+    background-color: #ef9999 !important;
+    color: #df3030;
+    border: none !important;
+    font-weight: 600;
+    min-width: 90px;
+}
+
+.btn-deleteCustomer:hover{
+    color: #df3030;
+}

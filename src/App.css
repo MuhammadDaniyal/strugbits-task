@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+/* Sidebar */
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  background-color: #015249 !important;
+  border-radius: 0px 20px 20px 0px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.css-1nxmd3h-MuiListItem-root {
+  width: auto !important;
+  margin: 0px 25px 0px 20px !important;
+  background-color: #043933;
+  box-shadow: 0px 5px 25px #00000040 !important;
+  border-radius: 10px;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-cveggr-MuiListItemIcon-root{
+  min-width: 0px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.iconCustomer{
+  font-size: 26px;
+  color: #fff;
+  margin-right: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.css-zxtyt4-MuiPaper-root-MuiAppBar-root {
+  background-color: #fff !important;
+  box-shadow: none !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navHeading {
+  color: black;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.0072em !important;
+}
+
+.css-1v5u2yv {
+  background-color: #f3f3f3 !important;
+  height: 100vh;
+}
+
+
+/* MAIN SECTION */
+
+.btn-addCustomer{
+  background: linear-gradient(105deg, rgba(87,188,144,1) 0%, rgba(0,75,64,1) 105%);
+  font-size: 14px;
+  border: none !important;
 }
